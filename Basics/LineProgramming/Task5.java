@@ -1,5 +1,5 @@
 // Given a natural number T, which represents the elapsed time in seconds.
-// Display the given duration in hours, minutes and seconds in the following form: ÍÍ÷ ÌÌìèí SSc
+// Display the given duration in hours, minutes and seconds in the following form: ÍÍh ÌÌmin SSs
 package by.jonline.lineprogram.main;
 
 import java.util.Scanner;
