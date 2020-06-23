@@ -1,4 +1,3 @@
-// Вычислить значение выражения по формуле (все переменные принимают действительные значения)
 package by.jonline.lineprogram.main;
 
 public class Task2 {

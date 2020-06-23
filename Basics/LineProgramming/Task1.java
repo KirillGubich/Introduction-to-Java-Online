@@ -1,4 +1,4 @@
-//  Ќайдите значение функции: z = ( (a Ц 3 ) * b / 2) + c.
+//  Find the value of the function: z = ( (a Ц 3 ) * b / 2) + c.
 package by.jonline.lineprogram.main;
 
 public class Task1 {

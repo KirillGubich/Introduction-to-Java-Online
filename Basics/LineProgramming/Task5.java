@@ -1,5 +1,5 @@
-// Дано натуральное число Т, которое представляет длительность прошедшего времени в секундах.
-// Вывести данное значение длительности в часах, минутах и секундах в следующей форме: ННч ММмин SSc
+// Given a natural number T, which represents the elapsed time in seconds.
+// Display the given duration in hours, minutes and seconds in the following form: ННч ММмин SSc
 package by.jonline.lineprogram.main;
 
 import java.util.Scanner;

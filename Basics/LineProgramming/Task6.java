@@ -1,5 +1,5 @@
-// Для данной области составить линейную программу, которая печатает true,
-// если точка с координатами (х, у) принадлежит закрашенной области, и false — в противном случае
+// For this area, create a linear program that prints true,
+// if the point with coordinates (x, y) belongs to the filled region, and false - otherwise
 package by.jonline.lineprogram.main;
 
 import java.util.Scanner;
