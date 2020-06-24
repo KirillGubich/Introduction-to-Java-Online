@@ -1,6 +1,5 @@
 // Напишите программу, где пользователь вводит любое целое положительное число. 
-// А программа суммирует все числа от 1 до введенного пользователем числа. 
-
+// А программа суммирует все числа от 1 до введенного пользователем числа
 package by.jonline.cycle.main;
 
 import java.util.Scanner;
@@ -8,7 +7,7 @@ import java.util.Scanner;
 public class Task1 {
 	
 	public static void main(String[] args) {
-        // Data input
+		// Data input
         Scanner numInput = new Scanner(System.in);
         int num = numInput.nextInt();
 
@@ -18,5 +17,5 @@ public class Task1 {
             sum += i;
 
         System.out.println(sum);
-    }
+	}
 }
