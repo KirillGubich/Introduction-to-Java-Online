@@ -5,12 +5,19 @@ package by.jonline.branche.main;
 public class Task3 {
 	
 	public static void main(String[] args) {
-	    double x1 = 1;
-		double y1 = 1;
-		double x2 = 2;
-		double y2 = 2;
-		double x3 = 3;
-		double y3 = 3;
+	    double x1;
+		double y1;
+		double x2;
+		double y2;
+		double x3;
+		double y3;
+		
+		x1 = 1;
+		y1 = 1;
+		x2 = 2;
+		y2 = 2;
+		x3 = 3;
+		y3 = 3;
 
 	    if ((x3 - x1) / (x2 - x1) == (y3 - y1) / (y2 - y1))
 			System.out.println("Yes");

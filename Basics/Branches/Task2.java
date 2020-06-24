@@ -4,10 +4,16 @@ package by.jonline.branche.main;
 public class Task2 {
 	
 	public static void main(String[] args) {
-        int a = 1;
-        int b = 2;
-        int c = 3;
-        int d = 4;
+        int a;
+        int b;
+        int c;
+        int d;
+        
+        a = 1;
+        b = 2;
+        c = 3;
+        d = 4;
+        
         int result;
         result = Math.max(Math.min(a,b),Math.min(c,d));
         System.out.println(result);
