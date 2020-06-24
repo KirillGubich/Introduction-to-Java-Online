@@ -5,7 +5,7 @@ package by.jonline.branche.main;
 public class Task3 {
 	
 	public static void main(String[] args) {
-	    double x1;
+	    	double x1;
 		double y1;
 		double x2;
 		double y2;

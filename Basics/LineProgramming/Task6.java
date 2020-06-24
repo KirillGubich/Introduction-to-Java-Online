@@ -1,6 +1,6 @@
 // For this area, create a linear program that prints true,
 // if the point with coordinates (x, y) belongs to the filled region, and false - otherwise
-package by.jonline.lineprogram.main;
+package by.jonline.line_program.main;
 
 import java.util.Scanner;
 
