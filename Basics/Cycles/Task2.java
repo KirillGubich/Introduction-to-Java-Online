@@ -1,4 +1,4 @@
-// Calculate the values of the function on the segment [a, b] with step h
+//  Вычислить значения функции на отрезке [а,b] c шагом h
 package by.jonline.cycle.main;
 
 public class Task2 {

@@ -1,5 +1,6 @@
-// Write a program where the user enters any positive integer.
-// And the program sums all numbers from 1 to the number entered by the user
+// Напишите программу, где пользователь вводит любое целое положительное число. 
+// А программа суммирует все числа от 1 до введенного пользователем числа. 
+
 package by.jonline.cycle.main;
 
 import java.util.Scanner;

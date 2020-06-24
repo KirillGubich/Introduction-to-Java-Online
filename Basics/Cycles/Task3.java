@@ -1,4 +1,4 @@
-// Find the sum of the squares of the first hundred numbers
+// Найти сумму квадратов первых ста чисел. 
 package by.jonline.cycle.main;
 
 public class Task3 {
