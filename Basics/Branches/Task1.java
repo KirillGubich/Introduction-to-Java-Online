@@ -7,13 +7,14 @@ import java.util.Scanner;
 public class Task1 {
 	
 	public static void main(String[] args) {
-        // Data input
+		
+        // Ввод данных
         Scanner firstInp = new Scanner(System.in);
         Scanner secondInp = new Scanner(System.in);
          int firstAngle = firstInp.nextInt();
          int secondAngle = secondInp.nextInt();
 
-         // Calculations
+         // Расчёты
          int thirdAngle;
          thirdAngle = 180 - firstAngle - secondAngle;
          if (thirdAngle>0){
