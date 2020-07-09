@@ -8,9 +8,9 @@ public class Task1 {
 	
     public static void main(String[] args) {
 		
-		// Ввод данных
-	    Scanner firstInp = new Scanner(System.in);
-	    Scanner secondInp = new Scanner(System.in);
+        // Ввод данных
+        Scanner firstInp = new Scanner(System.in);
+        Scanner secondInp = new Scanner(System.in);
         int firstAngle = firstInp.nextInt();
          int secondAngle = secondInp.nextInt();
 
