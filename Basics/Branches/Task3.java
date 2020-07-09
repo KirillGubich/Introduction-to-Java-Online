@@ -1,11 +1,11 @@
-// Three points A (x1, y1), B (x2, y2) and C (x3, y3) are given.
-// Determine whether they will be located on one straight line
+// Даны три точки А(х1,у1), В(х2,у2) и С(х3,у3). 
+// Определить, будут ли они расположены на одной прямой. 
 package by.jonline.branche.main;
 
 public class Task3 {
 	
-	public static void main(String[] args) {
-	    	double x1;
+    public static void main(String[] args) {
+        double x1;
 		double y1;
 		double x2;
 		double y2;

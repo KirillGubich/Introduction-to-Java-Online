@@ -1,12 +1,12 @@
-// Calculate the value of the function
+// Вычислить значение функции
 package by.jonline.branche.main;
 
 import java.util.Scanner;
 
 public class Task5 {
 	
-	public static void main(String[] args) {
-        // Input x
+    public static void main(String[] args) {
+        // Ввод x
         Scanner xInput = new Scanner(System.in);
         double x = xInput.nextDouble();
 

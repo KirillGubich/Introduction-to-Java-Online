@@ -1,10 +1,10 @@
-// The sizes A, B of the rectangular hole and the dimensions x, y, z of the brick are given.
-// Determine if the brick will go through the hole.
+// Заданы размеры А, В прямоугольного отверстия и размеры х, у, z кирпича. 
+// Определить, пройдет ли кирпич через отверстие.
 package by.jonline.branche.main;
 
 public class Task4 {
 	
-	public static void main(String[] args) {
+    public static void main(String[] args) {
         int a;
         int b;
         int x;

@@ -1,9 +1,9 @@
-// Found max{min(a, b), min(c, d)}.
+// Найти max{min(a, b), min(c, d)}.
 package by.jonline.branche.main;
 
 public class Task2 {
 	
-	public static void main(String[] args) {
+    public static void main(String[] args) {
         int a;
         int b;
         int c;
