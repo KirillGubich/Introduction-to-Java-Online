@@ -1,19 +1,19 @@
-// For this area, create a linear program that prints true,
-// if the point with coordinates (x, y) belongs to the filled region, and false - otherwise
+// Для данной области составить линейную программу, которая печатает true, 
+// если точка с координатами (х, у) принадлежит закрашенной области, и false — в противном случае
 package by.jonline.line_program.main;
 
 import java.util.Scanner;
 
 public class Task6 {
 	
-	public static void main(String[] args) {
-        // Data input
+    public static void main(String[] args) {
+        // Ввод данных
         Scanner xInput = new Scanner(System.in);
         Scanner yInput = new Scanner(System.in);
         int x = xInput.nextInt();
         int y = yInput.nextInt();
 
-        // Calculations
+        // Расчёты
         boolean result = false;
         if (y >= 0 && y <= 4 && Math.abs(x) <= 2)
             result = true;

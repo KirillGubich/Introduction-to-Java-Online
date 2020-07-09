@@ -1,9 +1,9 @@
-//  Find the value of the function: z = ( (a � 3 ) * b / 2) + c.
+//  Найти значение функции: z = ( (a – 3 ) * b / 2) + c.
 package by.jonline.line_program.main;
 
 public class Task1 {
 	
-	public static void main(String[] args) {
+    public static void main(String[] args) {
         double a;
         double b;
         double c;

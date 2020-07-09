@@ -1,17 +1,17 @@
-// Given a natural number T, which represents the elapsed time in seconds.
-// Display the given duration in hours, minutes and seconds in the following form: ��� ����� SSc
+// Дано натуральное число Т, которое представляет длительность прошедшего времени в секундах. 
+// Вывести данное значение длительности в часах, минутах и секундах в следующей форме: ННч ММмин SSc. 
 package by.jonline.line_program.main;
 
 import java.util.Scanner;
 
 public class Task5 {
 
-	public static void main(String[] args) {
-        // Data input
+    public static void main(String[] args) {
+        // Ввод данных
         Scanner input = new Scanner(System.in);
         int t = input.nextInt();
 
-        // Calculations
+        // Расчёты
         int hours = t / 3600;
         t %= 3600;
         int minutes = t / 60;
