@@ -1,17 +1,17 @@
-// Р’С‹С‡РёСЃР»РёС‚СЊ Р·РЅР°С‡РµРЅРёРµ С„СѓРЅРєС†РёРё
+// Вычислить значение функции
 package by.jonline.branche.main;
 
 import java.util.Scanner;
 
 public class Task5 {
-	
-    public static void main(String[] args) {
-        // Р’РІРѕРґ x
-        Scanner xInput = new Scanner(System.in);
-        double x = xInput.nextDouble();
 
-        double result;
-        result = x <= 3 ? x*x - 3*x + 9 : 1/(Math.pow(x,3) + 6);
-        System.out.println(result);
-    }
+	public static void main(String[] args) {
+		// Input x
+		Scanner in = new Scanner(System.in);
+		double x = in.nextDouble();
+
+		double result;
+		result = x <= 3 ? x * x - 3 * x + 9 : 1 / (Math.pow(x, 3) + 6);
+		System.out.println(result);
+	}
 }

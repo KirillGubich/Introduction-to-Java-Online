@@ -1,25 +1,24 @@
-// Ð”Ð»Ñ Ð´Ð°Ð½Ð½Ð¾Ð¹ Ð¾Ð±Ð»Ð°ÑÑ‚Ð¸ ÑÐ¾ÑÑ‚Ð°Ð²Ð¸Ñ‚ÑŒ Ð»Ð¸Ð½ÐµÐ¹Ð½ÑƒÑŽ Ð¿Ñ€Ð¾Ð³Ñ€Ð°Ð¼Ð¼Ñƒ, ÐºÐ¾Ñ‚Ð¾Ñ€Ð°Ñ Ð¿ÐµÑ‡Ð°Ñ‚Ð°ÐµÑ‚ true, 
-// ÐµÑÐ»Ð¸ Ñ‚Ð¾Ñ‡ÐºÐ° Ñ ÐºÐ¾Ð¾Ñ€Ð´Ð¸Ð½Ð°Ñ‚Ð°Ð¼Ð¸ (Ñ…, Ñƒ) Ð¿Ñ€Ð¸Ð½Ð°Ð´Ð»ÐµÐ¶Ð¸Ñ‚ Ð·Ð°ÐºÑ€Ð°ÑˆÐµÐ½Ð½Ð¾Ð¹ Ð¾Ð±Ð»Ð°ÑÑ‚Ð¸, Ð¸ false â€” Ð² Ð¿Ñ€Ð¾Ñ‚Ð¸Ð²Ð½Ð¾Ð¼ ÑÐ»ÑƒÑ‡Ð°Ðµ
+// Äëÿ äàííîé îáëàñòè ñîñòàâèòü ëèíåéíóþ ïðîãðàììó, êîòîðàÿ ïå÷àòàåò true, 
+// åñëè òî÷êà ñ êîîðäèíàòàìè (õ, ó) ïðèíàäëåæèò çàêðàøåííîé îáëàñòè, è false — â ïðîòèâíîì ñëó÷àå
 package by.jonline.line_program.main;
 
 import java.util.Scanner;
 
 public class Task6 {
-	
-    public static void main(String[] args) {
-        // Ð’Ð²Ð¾Ð´ Ð´Ð°Ð½Ð½Ñ‹Ñ…
-        Scanner xInput = new Scanner(System.in);
-        Scanner yInput = new Scanner(System.in);
-        int x = xInput.nextInt();
-        int y = yInput.nextInt();
 
-        // Ð Ð°ÑÑ‡Ñ‘Ñ‚Ñ‹
-        boolean result = false;
-        if (y >= 0 && y <= 4 && Math.abs(x) <= 2)
-            result = true;
-        else if (y >= -3 && y <= 0 && Math.abs(x) <= 4)
-            result = true;
+	public static void main(String[] args) {
+		// Data input
+		Scanner in = new Scanner(System.in);
+		int x = in.nextInt();
+		int y = in.nextInt();
 
-        System.out.println(result);
-    }
+		// Calculations
+		boolean result = false;
+		if (y >= 0 && y <= 4 && Math.abs(x) <= 2)
+			result = true;
+		else if (y >= -3 && y <= 0 && Math.abs(x) <= 4)
+			result = true;
+
+		System.out.println(result);
+	}
 }
