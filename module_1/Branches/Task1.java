@@ -1,5 +1,5 @@
-// Äàíû äâà óãëà òðåóãîëüíèêà (â ãðàäóñàõ). 
-// Îïðåäåëèòü, ñóùåñòâóåò ëè òàêîé òðåóãîëüíèê, è åñëè äà, òî áóäåò ëè îí ïðÿìîóãîëüíûì. 
+// Ð”Ð°Ð½Ñ‹ Ð´Ð²Ð° ÑƒÐ³Ð»Ð° Ñ‚Ñ€ÐµÑƒÐ³Ð¾Ð»ÑŒÐ½Ð¸ÐºÐ° (Ð² Ð³Ñ€Ð°Ð´ÑƒÑÐ°Ñ…). 
+// ÐžÐ¿Ñ€ÐµÐ´ÐµÐ»Ð¸Ñ‚ÑŒ, ÑÑƒÑ‰ÐµÑÑ‚Ð²ÑƒÐµÑ‚ Ð»Ð¸ Ñ‚Ð°ÐºÐ¾Ð¹ Ñ‚Ñ€ÐµÑƒÐ³Ð¾Ð»ÑŒÐ½Ð¸Ðº, Ð¸ ÐµÑÐ»Ð¸ Ð´Ð°, Ñ‚Ð¾ Ð±ÑƒÐ´ÐµÑ‚ Ð»Ð¸ Ð¾Ð½ Ð¿Ñ€ÑÐ¼Ð¾ÑƒÐ³Ð¾Ð»ÑŒÐ½Ñ‹Ð¼. 
 package by.jonline.branche.main;
 
 import java.util.Scanner;
@@ -7,12 +7,12 @@ import java.util.Scanner;
 public class Task1 {
 
 	public static void main(String[] args) {
-		// Data input
+		// Ð’Ð²Ð¾Ð´ Ð´Ð°Ð½Ð½Ñ‹Ñ…
 		Scanner in = new Scanner(System.in);
 		int firstAngle = in.nextInt();
 		int secondAngle = in.nextInt();
 
-		// Calculations
+		// Ð Ð°ÑÑ‡Ñ‘Ñ‚Ñ‹
 		int thirdAngle;
 		thirdAngle = 180 - firstAngle - secondAngle;
 		if (thirdAngle > 0) {

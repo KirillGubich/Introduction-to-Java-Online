@@ -1,4 +1,4 @@
-// Вычислить значение функции
+// Р’С‹С‡РёСЃР»РёС‚СЊ Р·РЅР°С‡РµРЅРёРµ С„СѓРЅРєС†РёРё
 package by.jonline.branche.main;
 
 import java.util.Scanner;
@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Task5 {
 
 	public static void main(String[] args) {
-		// Input x
+		
 		Scanner in = new Scanner(System.in);
 		double x = in.nextDouble();
 

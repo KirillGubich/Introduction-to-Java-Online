@@ -1,4 +1,4 @@
-// Найти max{min(a, b), min(c, d)}.
+// РќР°Р№С‚Рё max{min(a, b), min(c, d)}.
 package by.jonline.branche.main;
 
 public class Task2 {
