@@ -1,7 +1,7 @@
-// Given a real number R of the form nnn.ddd
-// (three digital digits in fractional and integer parts).
-// Swap the fractional and integer parts of the number 
-// and print the resulting value of the number
+// Дано действительное число R вида nnn.ddd 
+// (три цифровых разряда в дробной и целой частях). 
+// Поменять местами дробную и целую части числа 
+// и вывести полученное значение числа. 
 package by.jonline.line_program.main;
 
 public class Task4 {
