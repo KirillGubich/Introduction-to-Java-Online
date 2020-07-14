@@ -1,5 +1,6 @@
-//   Найдите  значение функции: z = ( (a – 3 ) * b / 2) + c. 
-package by.jonline.line_program.main;
+ package by.jonline.line_program.main;
+ 
+ // Найдите  значение функции: z = ( (a – 3 ) * b / 2) + c.
 
 public class Task1 {
 

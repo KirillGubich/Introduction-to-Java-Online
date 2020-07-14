@@ -1,5 +1,8 @@
 package by.jonline.line_program.main;
 
+// Вычислить значение выражения по формуле 
+// (все переменные принимают действительные значения): 
+
 public class Task3 {
 
 	public static void main(String[] args) {
