@@ -1,5 +1,6 @@
-//  Даны два числа. Определить цифры, входящие в запись как первого так и второго числа. 
-package by.jonline.cycle.main;
+package by.jonline.loop.main;
+
+// Даны два числа. Определить цифры, входящие в запись как первого так и второго числа. 
 
 import java.util.HashSet;
 import java.util.Scanner;
@@ -8,9 +9,12 @@ public class Task8 {
 
 	public static void main(String[] args) {
 
-		Scanner in = new Scanner(System.in);
-		int firstNum = in.nextInt();
-		int secondNum = in.nextInt();
+		int firstNum;
+		int secondNum;
+		
+		firstNum = Math.abs(getIntFromConsole());
+		secondNum = Math.abs(getIntFromConsole());
+		
 		HashSet<Integer> intSet = new HashSet<>();
 		HashSet<Integer> resSet = new HashSet<>();
 
@@ -29,4 +33,19 @@ public class Task8 {
 
 	}
 
+	// Ввод с консоли целого числа
+	private static int getIntFromConsole() {
+
+		int num;
+		Scanner in = new Scanner(System.in);
+
+		System.out.print(">> ");
+		while (!in.hasNextInt()) {
+			in.next();
+			System.out.print(">> ");
+		}
+		num = in.nextInt();
+
+		return num;
+	}
 }

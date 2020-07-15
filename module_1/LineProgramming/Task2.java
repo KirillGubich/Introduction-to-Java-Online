@@ -1,4 +1,4 @@
-package by.jonline.line_program.main;
+package by.jonline.linear.main;
 
 // Вычислить значение выражения по формуле 
 // (все переменные принимают действительные значения
@@ -6,6 +6,7 @@ package by.jonline.line_program.main;
 public class Task2 {
 
 	public static void main(String[] args) {
+		
 		double a;
 		double b;
 		double c;

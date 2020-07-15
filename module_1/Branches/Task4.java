@@ -1,10 +1,14 @@
-// Заданы размеры А, В прямоугольного отверстия и размеры х, у, z кирпича. 
-// Определить, пройдет ли кирпич через отверстие.
 package by.jonline.branche.main;
+
+/*
+    Заданы размеры А, В прямоугольного отверстия и размеры х, у, z кирпича. 
+    Определить, пройдет ли кирпич через отверстие. 
+ */
 
 public class Task4 {
 
 	public static void main(String[] args) {
+		
 		int a;
 		int b;
 		int x;
@@ -27,8 +31,8 @@ public class Task4 {
 			isCrawl = true;
 
 		if (isCrawl)
-			System.out.println("Will go through the hole");
+			System.out.println("Пройдет через отверстие");
 		else
-			System.out.println("Will not go through the hole");
+			System.out.println("Не пройдет через отверстие");
 	}
 }

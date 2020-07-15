@@ -1,16 +1,28 @@
-// —оставить программу нахождени¤ произведени¤ квадратов первых двухсот чисел
-package by.jonline.cycle.main;
+package by.jonline.loop.main;
 
-import java.math.BigInteger;
+//  Составить программу нахождения произведения квадратов первых двухсот чисел
 
 public class Task4 {
-	
+
 	public static void main(String[] args) {
-		BigInteger mult = BigInteger.valueOf(1);
-		for (int i = 2; i <= 200 ; i++) {
-			BigInteger num = BigInteger.valueOf(i*i);
-			mult = mult.multiply(num);		
+
+		long mult = 1;
+		int i = 2;
+		boolean overflow = false;
+
+		while (i <= 200 && !overflow) {
+			mult *= i * i;
+			overflow = Long.MAX_VALUE / mult < (i + 1) * (i + 1);
+			i++;
 		}
-		System.out.println(mult);
+		
+		// В случае переполнения выводится соответствующее сообщение
+		
+		if (overflow) {
+			System.out.println("Произошло переполнение!");
+			System.out.println("Результат получен для первых " + (i - 1) + " чисел.");
+		}
+
+		System.out.println("Результат: " + mult);
 	}
 }

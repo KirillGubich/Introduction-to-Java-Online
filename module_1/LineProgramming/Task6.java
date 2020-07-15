@@ -1,12 +1,10 @@
-package by.jonline.line_program.main;
+package by.jonline.linear.main;
 
 /*
    Для данной области составить линейную программу, которая печатает true, 
    если точка с координатами (х, у) 
    принадлежит закрашенной области, и false — в противном случае 
  */
-
-import java.util.Scanner;
 
 public class Task6 {
 
@@ -15,11 +13,8 @@ public class Task6 {
 		int x;
 		int y;
 
-		// Ввод данных
-
-		Scanner in = new Scanner(System.in);
-		x = in.nextInt();
-		y = in.nextInt();
+		x = 5;
+		y = 4;
 
 		// Расчёты
 
