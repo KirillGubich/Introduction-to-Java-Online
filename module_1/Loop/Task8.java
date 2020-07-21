@@ -11,10 +11,10 @@ public class Task8 {
 
 		int firstNum;
 		int secondNum;
-		
-		firstNum = Math.abs(getIntFromConsole());
-		secondNum = Math.abs(getIntFromConsole());
-		
+
+		firstNum = Math.abs(getIntFromConsole("Первое число = "));
+		secondNum = Math.abs(getIntFromConsole("Второе число = "));
+
 		HashSet<Integer> intSet = new HashSet<>();
 		HashSet<Integer> resSet = new HashSet<>();
 
@@ -34,15 +34,16 @@ public class Task8 {
 	}
 
 	// Ввод с консоли целого числа
-	private static int getIntFromConsole() {
-
+	private static int getIntFromConsole(String message) {
 		int num;
+		
+		@SuppressWarnings("resource")
 		Scanner in = new Scanner(System.in);
 
-		System.out.print(">> ");
+		System.out.print(">> " + message);
 		while (!in.hasNextInt()) {
 			in.next();
-			System.out.print(">> ");
+			System.out.print("Некорректные данные. >> ");
 		}
 		num = in.nextInt();
 

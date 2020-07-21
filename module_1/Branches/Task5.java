@@ -10,7 +10,7 @@ public class Task5 {
 
 		double x;
 
-		x = getDoubleFromConsole();
+		x = getDoubleFromConsole("x = ");
 
 		double result;
 		result = x <= 3 ? x * x - 3 * x + 9 : 1 / (Math.pow(x, 3) + 6);
@@ -18,12 +18,13 @@ public class Task5 {
 	}
 	
 	// Ввод с консоли вещественного числа
-	private static double getDoubleFromConsole() {
-		
+	private static double getDoubleFromConsole(String message) {
 		double num;
+		
+		@SuppressWarnings("resource")
 		Scanner in = new Scanner(System.in);
 		
-		System.out.print(">> ");
+		System.out.print(">> " + message);
 		while (!in.hasNextDouble()) {
 			in.next();
 			System.out.print(">> ");

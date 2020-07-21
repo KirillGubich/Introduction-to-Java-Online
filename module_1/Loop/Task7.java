@@ -12,21 +12,21 @@ public class Task7 {
 
 		int m;
 		int n;
-		
+
 		boolean incorrectInput;
 
 		// Ввод исходных данных с консоли и проверка их корректности
 
 		do {
-			m = getIntFromConsole();
-			n = getIntFromConsole();
+			m = getIntFromConsole("m = ");
+			n = getIntFromConsole("n = ");
 			incorrectInput = m < 1 || n < 1 || m > n;
 			if (incorrectInput) {
 				System.out.println("Введите значения больше нуля.");
 				System.out.println("Первое значение должно быть не больше второго");
 			}
 		} while (incorrectInput);
-		
+
 		System.out.println();
 
 		for (int i = m; i <= n; i++) {
@@ -46,15 +46,16 @@ public class Task7 {
 	}
 
 	// Ввод с консоли целого числа
-	private static int getIntFromConsole() {
-
+	private static int getIntFromConsole(String message) {
 		int num;
+		
+		@SuppressWarnings("resource")
 		Scanner in = new Scanner(System.in);
 
-		System.out.print(">> ");
+		System.out.print(">> " + message);
 		while (!in.hasNextInt()) {
 			in.next();
-			System.out.print(">> ");
+			System.out.print("Некорректные данные. >> ");
 		}
 		num = in.nextInt();
 

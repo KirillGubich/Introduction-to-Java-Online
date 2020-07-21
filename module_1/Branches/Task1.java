@@ -19,8 +19,8 @@ public class Task1 {
 		// Ввод исходных данных с консоли и проверка их корректности
 
 		do {
-			firstAngle = getIntFromConsole();
-			secondAngle = getIntFromConsole();
+			firstAngle = getIntFromConsole("Первый угол = ");
+			secondAngle = getIntFromConsole("Второй угол = ");
 			incorrectInput = firstAngle <= 0 || secondAngle <= 0;
 			if (incorrectInput) {
 				System.out.println("Введите положительные значения.");
@@ -45,12 +45,13 @@ public class Task1 {
 	}
 
 	// Ввод с консоли целого числа
-	private static int getIntFromConsole() {
-
+	private static int getIntFromConsole(String message) {
 		int num;
+		
+		@SuppressWarnings("resource")
 		Scanner in = new Scanner(System.in);
 
-		System.out.print(">> ");
+		System.out.print(">> " + message);
 		while (!in.hasNextInt()) {
 			in.next();
 			System.out.print("Некорректные данные. >> ");

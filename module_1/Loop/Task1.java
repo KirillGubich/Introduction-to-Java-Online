@@ -18,7 +18,7 @@ public class Task1 {
 		// Ввод исходных данных с консоли и проверка их корректности
 
 		do {
-			num = getIntFromConsole();
+			num = getIntFromConsole("Введите число ");
 			incorrectInput = num < 1;
 			if (incorrectInput) {
 				System.out.println("Введите значение больше нуля.");
@@ -34,12 +34,13 @@ public class Task1 {
 	}
 
 	// Ввод с консоли целого числа
-	private static int getIntFromConsole() {
-
+	private static int getIntFromConsole(String message) {
 		int num;
+		
+		@SuppressWarnings("resource")
 		Scanner in = new Scanner(System.in);
 
-		System.out.print(">> ");
+		System.out.print(">> " + message);
 		while (!in.hasNextInt()) {
 			in.next();
 			System.out.print("Некорректные данные. >> ");
