@@ -63,7 +63,7 @@ public class Task12 {
 	}
 
 	// Сортирует массив по возрастанию
-	private static int[] ascendingSort(int[] numArray) {
+	private static void ascendingSort(int[] numArray) {
 
 		for (int i = numArray.length - 1; i > 0; i--) {
 			for (int j = 0; j < i; j++) {
@@ -74,8 +74,6 @@ public class Task12 {
 				}
 			}
 		}
-
-		return numArray;
 	}
 
 	// Сортирует массив по убыванию
