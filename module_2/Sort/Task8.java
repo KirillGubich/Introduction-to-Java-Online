@@ -81,7 +81,7 @@ public class Task8 {
 		}
 	}
 
-	// Поиск НОК двух чисел
+	// НОК двух чисел по алгоритму Евклида
 	private static int getLCM(int firstNum, int secondNum) {
 
 		int mul;
