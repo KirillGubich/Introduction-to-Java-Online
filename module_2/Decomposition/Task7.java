@@ -9,6 +9,7 @@ public class Task7 {
 		System.out.println(oddFactorialSum(1, 9));
 	}
 
+	// Сумма факториалов нечетных чисел
 	private static int oddFactorialSum(int min, int max) {
 		int sum = 0;
 
@@ -23,6 +24,7 @@ public class Task7 {
 		return sum;
 	}
 
+	// Факториал числа
 	private static int factorial(int num) {
 		int result = 1;
 
