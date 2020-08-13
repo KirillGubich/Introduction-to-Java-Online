@@ -1,8 +1,8 @@
-package by.jonline.simple_class.main;
+package by.jonline.simple_class.train;
 
 import java.util.Scanner;
 
-public class TrainHelper {
+public class UserDataInput {
 
 	// Получение номера поезда
 	public int getTrainNumber() {

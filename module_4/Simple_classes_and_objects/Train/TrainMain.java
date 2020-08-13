@@ -1,4 +1,4 @@
-package by.jonline.simple_class.main;
+package by.jonline.simple_class.train;
 
 /*
    Создайте класс Train, содержащий поля: название пункта назначения, номер поезда, время отправления. 
@@ -25,9 +25,9 @@ public class TrainMain {
 
 		TrainView trainView = new TrainView();
 		TrainService trainService = new TrainService();
-		TrainHelper trainHelper = new TrainHelper();
+		
 
-		trainView.viewTrainInfo(trains, trainHelper.getTrainNumber());
+		trainView.viewTrainInfo(trains);
 
 		trainService.sortTrainsByDestination(trains);
 		trainService.sortTrainsByTime(trains);

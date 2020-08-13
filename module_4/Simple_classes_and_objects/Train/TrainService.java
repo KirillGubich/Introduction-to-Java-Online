@@ -1,4 +1,4 @@
-package by.jonline.simple_class.main;
+package by.jonline.simple_class.train;
 
 import java.util.List;
 

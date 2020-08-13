@@ -1,4 +1,4 @@
-package by.jonline.simple_class.main;
+package by.jonline.simple_class.train;
 
 import java.util.List;
 
@@ -12,7 +12,12 @@ public class TrainView {
 	}
 
 	// Вывод информации о поезде по его номеру
-	public void viewTrainInfo(List<Train> trains, int trainNumber) {
+	public void viewTrainInfo(List<Train> trains) {
+		int trainNumber;
+
+		UserDataInput input = new UserDataInput();
+		trainNumber = input.getTrainNumber();
+
 		for (Train train : trains) {
 			if (train.getTrainNumber() == trainNumber) {
 				System.out.println(train.toString());
