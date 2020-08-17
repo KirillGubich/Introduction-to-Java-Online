@@ -3,7 +3,7 @@ package by.jonline.simple_class.customer;
 public class Customer {
 
 	private static int nextId = 1;
-	private final int id;
+	private final int ID;
 	private String surname;
 	private String name;
 	private String patronymic;
@@ -12,7 +12,7 @@ public class Customer {
 	private long bankAccount;
 
 	public Customer(String surname, String name, String patronymic, String adress, long creditCard, long bankAccount) {
-		this.id = nextId++;
+		this.ID = nextId++;
 		this.surname = surname;
 		this.name = name;
 		this.patronymic = patronymic;
@@ -22,7 +22,7 @@ public class Customer {
 	}
 
 	public Customer() {
-		id = nextId++;
+		ID = nextId++;
 		name = "default";
 		surname = "default";
 		patronymic = "default";
@@ -81,7 +81,7 @@ public class Customer {
 
 	@Override
 	public String toString() {
-		return "Customer id " + id + ":  " + surname + " " + name + " " + patronymic + ", adress: " + adress
+		return "Customer id " + ID + ":  " + surname + " " + name + " " + patronymic + ", adress: " + adress
 				+ ", creditCard: " + creditCard + ", bankAccount: " + bankAccount;
 	}
 
