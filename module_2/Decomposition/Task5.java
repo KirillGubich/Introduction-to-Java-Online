@@ -21,32 +21,29 @@ public class Task5 {
 
 	// Поиск второго по величине числа в массиве
 	private static int getSecondMaxElement(int[] array) {
-		int maxEl;
-		maxEl = getMaxElement(array);
-
+		
+		int maxEl = array[0];
 		int secondMax;
-		secondMax = -1 * maxEl;
 
-		for (int i = 0; i < array.length; i++) {
-			if (array[i] > secondMax && array[i] < maxEl) {
+		if (array[0] > array[1]) {
+			secondMax = array[1];
+			maxEl = array[0];
+		} else {
+			secondMax = array[0];
+			maxEl = array[1];
+		}
+
+		for (int i = 2; i < array.length; i++) {
+
+			if (array[i] > maxEl) {
+				secondMax = maxEl;
+				maxEl = array[i];
+			} else if (array[i] > secondMax) {
 				secondMax = array[i];
 			}
 		}
 
 		return secondMax;
-	}
-
-	// Поиск максимального элемента в массиве
-	private static int getMaxElement(int[] array) {
-		int maxEl = array[0];
-
-		for (int i = 1; i < array.length; i++) {
-			if (array[i] > maxEl) {
-				maxEl = array[i];
-			}
-		}
-
-		return maxEl;
 	}
 
 	// Генерирует случайный массив целочисленных положительных значений
